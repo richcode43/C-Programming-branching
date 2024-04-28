@@ -1,1 +1,1 @@
-This are my assignments on C Programming.
+These are my assignments on C Programming.
