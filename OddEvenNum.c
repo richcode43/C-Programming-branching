@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-	 int n, i;
     int arr[n];
+    int n, i;
     int evenArr[i], oddArr[i];
     int evenCount = 0, oddCount = 0;
 
@@ -24,18 +24,14 @@ int main(){
             oddCount++;
         }
     }
-    
-     printf("Even Numbers are:");
-    for(i = 0; i < evenCount; i++){
-        printf("%d\t", evenArr[i]);
-    }
 
-     printf("\nOdd Numbers are:");
-    for(i = 0; i < oddCount; i++){
-    printf("%d\t", oddArr[i]);
+     printf("Odd Numbers are:");
+    for(i = 0; i < n; i++){
+    printf("\n%d\t", oddArr[i]);
     }
      
-
-    return 0;
+     printf("Even Numbers are:");
+    for(i = 0; i < n; i++){
+        printf("Even Numbers are: %d\t", evenArr[i]);
+    }
 }
-

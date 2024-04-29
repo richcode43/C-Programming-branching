@@ -11,21 +11,16 @@ int main(){
     printf("Enter %d Values:\n", n);
     for(i = 0; i < n; i++){
     scanf("%d", &arr[i]);
-//    duplicate[i] = -1;
     }
 
     for (i = 0; i < n; i++) { 
-        int recur = 1;
          for ( j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
-//                if (duplicate[j] != 1) {
                     count++;
                     duplicate[j] = 1; 
-//                }
-//                recur = 0;
             }
         }
-        if (recur && duplicate[i] != 1) {
+        if (duplicate[i] != 1) {
             duplicate[i] = 0;
         }
        }

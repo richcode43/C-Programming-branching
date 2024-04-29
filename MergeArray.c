@@ -16,9 +16,8 @@ int main(){
     }
 
     while(a < n && b < n);
-        if(arr1[a] >= arr2[b]){
+        if(arr1[a] >= arr2[b])
             result[m++] = arr1[a++];
-        }
         else{
             result[m++] = arr2[b++];
         }
